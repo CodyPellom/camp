@@ -1,0 +1,79 @@
+/*font imports*/
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|VT323&display=swap');
+/*font imports end */
+/*=====*/
+/*Global Fonts*/
+h1, h3  {
+    font-family: 'Major Mono Display', monospace;
+}
+li {
+    font-family: 'VT323';
+}
+/*Global Fonts End*/
+/*=====*/
+/*Color Classes*/
+.white{
+    color: white;
+}
+.green {
+    color: rgb(131, 218, 131);
+ 
+}
+/*Color Classes End*/
+/*=====*/
+/*navbar*/
+#main-navbar{
+    width: 100%;
+    height: 25vw;
+    background-color: black;
+    border: solid rgb(44, 44, 44) 2px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+}
+#navbar-logo{
+    color: rgb(131, 218, 131);
+    font-family: 'Major Mono Display', monospace;
+    font-size: 8vw;
+}
+#navbar-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.navbar-link{
+    font-size: small;
+    color: rgb(44, 44, 44);
+    font-family: 'VT323', monospace;
+    margin-right: 5px;
+
+}
+.navbar-link:hover{
+    transition: color 1s;
+    color: rgb(131, 218, 131);
+}
+/*navbar end*/
+/*=====*/
+/*Homepage Intro*/
+#homepage-intro-section {
+
+}
+#homepage-intro-quote-section {
+
+}
+#homepage-intro-about {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+}
